@@ -1,0 +1,92 @@
+Database vs. spreadsheet: which is better?
+Databases and spreadsheets are often referred to interchangeably—but they’re far from the same. Picking the right one for your needs requires some context on how (and why) they differ.
+Databases and spreadsheets are fundamentally different tools. But too often, they’re thought of as one and the same.
+
+Learning the nuances of both databases and spreadsheets is the key to unlocking their respective superpowers. And that starts with understanding their differences.
+
+Spreadsheets, on one hand, are a tool most of us are familiar with—and for good reason. They are, after all, wonderful, accessible, and ubiquitous tools. So when it comes time to crunch numbers, balance a budget, or even organize information, reaching for them is second nature.
+
+But useful as they are, spreadsheets aren’t the best tool for every use case. Limitations like duplicate data and one-size-fits all views make them tough to use for more complex use cases. Consider uses cases like content calendars, inventory management systems, and the like. When you’re tackling those uses, a database offers significantly more flexibility and power.
+
+Today, with the right tools, anyone who can use a spreadsheet can use a database. Understanding the differences will empower you to make the right choice for your unique use case.
+
+What, exactly, is a database?
+The first step in understanding databases is simple: defining what they are. This piece sums it up best:
+
+A database is a logically organized collection of information, designed in such a way that the information within can be accessed for later use by a computer program.
+
+Put another way: a database is way to track and organize information in a highly flexible structure. That structure allows you to do more with your data.
+
+A database can be displayed in a tabular structure similar to a spreadsheet. But it can also contain relational data: data that can be connected across more than one table. (Note that there are non-relational databases in the world, too, but we can ignore that fact for now.)
+
+This relationship allows tables to be linked in logical ways, enabling a more flexible, productive use of data. So while a database and a spreadsheet might look similar at a glance, their looks can be deceiving. Behind the curtain, databases contain robust functionality and versatility, enabling more sophisticated use cases and, ironically, simplifying work.
+
+The pros and cons of working with databases
+Whether you realize it or not, you’re probably already familiar with a database or two. After all, most business applications rely on databases to function behind the scenes.
+
+Your customer relationship management instance (CRM), for example, is a database. Lyft relies on a database to dispatch cars with real-time geotracking. The websites you access every day—like Amazon, Wikipedia, and Netflix—are powered by databases. And that’s just the tip of the iceberg.
+
+Traditionally, databases were designed by engineers using technology like Oracle or MySQL. Older databases typically ran on local servers, accessible only via company networks. But today, cloud-based databases—like Airtable, for example—make that tech available to anyone.
+
+Offering engineering tools like APIs, databases are still viable, robust tools for developers. They can act as a base to build websites, or even power minimum viable products (MVPs). But this new school of databases is also accessible for day-to-day users.
+
+How do spreadsheets differ from databases?
+Most of us have worked in a spreadsheet. But not all of us know exactly what they’re designed to do.
+
+A spreadsheet is a digital ledger that stores data in cells displayed in rows and columns—what’s known as tabular format. If the “data” in question is numeric, spreadsheets let you apply formulas to the cells to perform preset functions, like addition or multiplication.
+
+At its core, a spreadsheet is a two-dimensional document designed for data storage and calculation. They’re a powerful tool for tasks like crunching numbers, storing lists, and budget tracking.
+
+Spreadsheets have been a staple for decades, but now, they’re used for all sorts of activities beyond the number-centric use cases they were designed for. From content calendars, to project trackers, inventory management, UX research, and more, crafty spreadsheet users have found ways to hack around their intended limitations. But ingenious as they are, those workarounds come at a cost.
+
+The pros and cons of working with spreadsheets
+Spreadsheets are easy to create and understand. They’re essentially data trackers that allow a reasonable degree of content variation. You can insert links, for instance, or format the font within cells. Spreadsheets display everything at once, so when you open a spreadsheet, you can see all the data you have at a glance—or a scroll.
+
+But the very quality that makes them useful—that ability to display all data at once—can be a drawback when dealing with large volumes of data.
+
+Take, for example, a project tracker for a quarter-long marketing campaign. If your campaign contributions are limited to a handful of line items, it’d probably be distracting to see the entire team’s task list every time you open the tracker to update it. A project manager, on the other hand, might want to see all tasks at once from time to time—but with a spreadsheet, both parties are limited to a single shared view.
+
+While spreadsheets typically allow you to “hide” columns to get information out of the way, it’s a manual task—and a temporary fix. As you add more and more information, eventually, the sheet balloons.
+
+At some point, it stops being scalable. While spreadsheets allow for some filtering and querying, those features are rarely enough to keep complex information organized and accessible.
+
+That’s complicated further by their simplified format, which limits the way you can represent and connect your data. Spreadsheets don’t easily accommodate rich data types (like attachments), data validation, or meaningful relationships between data points. And if you’re applying complex or interconnected formulas, one false move can send a destructive domino effect rippling through your sheet.
+
+At their core, they limit you to a two-dimensional, and sometimes precarious representation of the information you care about.
+
+The critical differences between databases and spreadsheets
+If you just need to track numbers or keep a list that you occasionally share with others, a spreadsheet is a solid choice.
+
+In situations where you’re dealing with more complex data, or need to use one source of data for multiple purposes, a database often works best.
+
+The main technical difference between a spreadsheet and a database comes down to the way they store data. In a spreadsheet, data is stored in a cell, and can be formatted, edited, and manipulated within that cell.
+
+In a database, cells contain records that come from external tables. This differentiation means that spreadsheets are static documents, while databases can be relational. That means if you upload, edit, or delete a piece of data in one place, the change will be made in every other place that references that data.
+
+For instance, if a customer email address changes in your CRM, instead of notifying sales, marketing, fulfillment, and any other part of your organization that needs to know, you simply make a change in one single place, and that change automatically propagates everywhere.
+
+Not sure which sounds best for you? Here are five core questions to ask as you choose between a spreadsheet or a database:
+
+1. What kind of data do you have?
+Most spreadsheets allow text and numeric data, but not necessarily other types of content such as images, videos, and documents. Databases, on the other hand, accommodate a wide range of file types and larger files sizes.
+
+2. How do you want to use that data?
+If you want to track a limited volume of data and apply formulas, a spreadsheet is likely your best bet. But if you’re looking to isolate certain subsets of data at a time, or arrange data into multiple views, a database is more effective.
+
+3. How important is your data integrity?
+A spreadsheet will, by default, allow you to type anything into a field—and even store different types of data in the same field. This allows for a lot of flexibility, but can also create problems when you (or a teammate) makes a mistake.
+
+Databases offer built-in data validation. If you try to input something in the wrong format, you’ll get an error. This keeps the integrity of your data intact, preventing data cleanliness issues down the line.
+
+4. Do you need deep search capabilities?
+Spreadsheets have limited filtering and searching capability—so if that’s compatible with your use case, it could be the right choice. If you need to retrieve records quickly using a certain set of parameters, a database might be a better choice.
+
+5. How many people need access?
+It’s easy to share a spreadsheet. You can send a link, cloud share, or even print it out. But sharing is very different from collaborating. Spreadsheets aren’t great for the latter.
+
+Databases are designed for collaboration between multiple users. Say, for example your organization uses one central pool of data for multiple end-uses. Databases let you update information in one place without having to update the data in all the downstream locations it’s tied to. They serve as a single source of truth. That’s helpful for uses like a campaign management document, where updating one datapoint (like a change in launch date, for example) can automatically update all of the other records it’s related to.
+
+Evaluating the differences between the two
+Databases are more complex and versatile tools. And because of that, there’s an assumption that they require special expertise to build and manage. After all, they’ve historically been the domain of engineers.
+
+Yet these assumptions are no longer true. With tools like Airtable, virtually anyone can create, manage, and share a database—no technical knowledge required.
